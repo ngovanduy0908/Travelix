@@ -1,0 +1,146 @@
+.contact-header{
+    position: relative;
+    background-image: url('../img/contact_background.jpg');
+    padding-top: 31%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact-header__tittle{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.contact-header__tittle h1{
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--white-color);
+    text-transform:uppercase;
+    text-shadow: 0 0 3px #000;
+}
+
+.contact-form{
+    padding-top: 100px;
+}
+
+.contact-form__body{
+    background-image: var(--bg-section);
+    padding: 74px 98px 80px;
+    /* position: relative; */
+}
+
+.contact-form__body h2{
+    color: var(--white-color);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.contact-form__body-input{
+    overflow: hidden;
+}
+.contact-input,
+.contact-subject,
+.text-area{
+width: 100%;
+    background-color: transparent;
+    /* outline: none; */
+    border: none;
+    color: var(--white-color);
+    filter: brightness(1000%);
+    border-bottom: 2px solid var(--white-color);
+}
+
+.contact-input{
+    padding: 16px 0;
+}
+
+.contact-subject{
+/* width: 100%; */
+padding: 16px 0;
+    margin-top: 11px;
+
+}
+
+.text-area{
+    padding: 0 12px;
+    margin-top: 20px;
+  /* width: 90%;   */
+}
+
+.contact-btn{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 45px auto 0
+    ;
+    height: 53px;
+    padding: 0 36px;
+}
+
+.contact-btn__text{
+    text-transform: uppercase;
+}
+
+.contact-about{
+    padding-top: 105px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+.contact-about__img{
+    position: absolute;
+    top: 64px;
+}
+
+.logo__tittle-contact{
+    color: var(--black-color);
+}
+
+.contact-about__item-des{
+    margin: 50px 0;
+    line-height: 2.1;
+    font-size: 15px;
+    font-weight: 400;
+    color: #929191;
+}
+
+.footer__item-social-contact{
+    color: var(--yellow-color);
+}
+
+.footer__item-social-contact:hover{
+    background-color: var(--yellow-color);
+    color: var(--white-color);
+}
+
+.footer__item-social-contact{
+    width: 47px;
+    height: 47px;
+    line-height: 47px;
+}
+
+.footer__item-social-contact i{
+    font-size: 20px;
+}
+
+.contact-item__contact{
+    margin-top: 90px;
+}
+
+.contact__item-contact-link-des{
+    color: var(--black-color);
+}
+
+.contact__item-contact-link-des:hover{
+    color: var(--yellow-color);
+}
+
+.footer-test{
+    top: 0;
+}

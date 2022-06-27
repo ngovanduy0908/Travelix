@@ -1,0 +1,337 @@
+.about-home{
+    position: relative;
+}
+
+.header__body-link{
+    text-decoration: none !important;
+}
+
+.header__body-link:hover{
+    color: var(--white-color);
+}
+
+.about-home__background{
+    background-image: var(--overlay-color), url('/assest/img/offerimghime.jpg');
+    height: 65vh;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.about-home__tittle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.about-home__tittle h1{
+    color: var(--white-color);
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.about-intro{
+    position: relative;
+    background-color: #f6f9fb;
+    /* padding-top: 92px; */
+    
+}
+
+.about-intro__img{
+    position: relative;
+    background-image: url('/assest/img/about-beach.webp');
+    padding-top: 85%;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    background-size: contain;
+}
+
+.about-intro__des{
+    margin-top: 100px;
+}
+
+.about-intro__des h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d2c2c;
+}
+
+.about-intro__des p{
+    color: #929191;
+    font-weight: 600;
+    margin-top: 60px;
+    line-height: 2;
+}
+
+.about-intro__des-btn{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px !important;
+    overflow: hidden;
+    border: none !important;
+    min-width: 200px;
+    margin-top: 50px;
+}
+
+.about-intro__des-btn-text{
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--white-color);
+    text-transform: uppercase;
+    margin-right: 4px;
+    
+}
+
+.about-statistics{
+    padding: 100px 0;
+}
+
+.about-statistics__heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #2d2c2c;
+    margin-top: 0;
+}
+
+.about-statistics__des{
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    color: #929191;
+}
+
+.about-statistics__year{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 116px;
+    font-size: 14px;
+    
+}
+
+.about-statistics__year span{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--yellow-color);
+}
+
+.about-statistics__container{
+    margin-top: 24px;
+    padding: 0 47px;
+}
+
+.about-statistics__container-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.about-statistics__container-item-start{
+    display: flex;
+    width: 25%;
+}
+
+.about-statistics__container-item-img{
+}
+
+.about-statistics__end-img img,
+.about-statistics__container-item-img img{
+    margin-top: 22px;
+}
+
+.statistics-number{
+    margin-left: 12px;
+}
+
+.statistics-end-number p,
+.statistics-number p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #929191;
+}
+
+.about-statistics__container-item-road{
+    position: relative;
+    width: 50%;
+    height: 2.5px;
+    background-color: #a5a5a5;
+}
+
+
+
+.about-statistics__container-item-road1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 50%;
+    height: 2.5px;
+    top: 0;
+    background-color: #000;
+    right: 0;
+}
+
+
+
+
+.about-statistics__road-value{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    color: #a5a5a5;
+}
+
+.about-statistics__road-value2{
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+}
+
+.about-statistics__road-value3{
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+}
+
+.about-statistics__container-item-road2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: 2.5px;
+    top: 0;
+    background-color: #6e13b3;
+    left: 8%;
+}
+
+.about-statistics__container-item-road3::before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    width: 9.5%;
+    height: 2.5px;
+    background: rgb(250, 111, 27);
+}
+
+.about-statistics__container-item-road4::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 50%;
+    height: 2.5px;
+    background: rgb(250, 111, 27);
+}
+
+.about-statistics__container-item-end{
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.statistics-end-number{
+    margin-right: 12px;
+    text-align: right;
+}
+
+.about-container{
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.about-container__content{
+    background-image: url('/assest/img/thailand.webp');
+    padding-top: 24%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.about-container__content-body{
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+.about-container__content-body h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--white-color);
+    margin: 0;
+}
+
+.about-container__content-body p{
+    color: var(--white-color);
+    font-size: 20px;
+    margin-top: 14px;
+}
+
+.about-container__des-btn{
+    margin-top: 35px;
+    min-width: 200px;
+}
+
+.about-move-number{
+    padding-bottom: 100px;
+}
+
+.about-move-number-item{
+    text-align: center;
+}
+
+.about-move-number-item-img{
+    height: 58px;
+}
+
+.about-move-number-item h3{
+    font-size: 48px;
+    font-weight: 600;
+    color: #2d2c2c;
+    margin-top: 25px;
+}
+
+.about-move-number-item p{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #9a9999;
+    margin-top: 22px;
+}
+
+.footer-test{
+    top: 0;
+}
+
+.footer__item-tags-link{
+    line-height: 32px;
+}
+
+.footer__item-tags-item:hover .footer__item-tags-link{
+    text-decoration: none;
+    color: var(--white-color);
+
+}
+
+.footer__item-social:hover{
+    color: var(--white-color) !important;
+}
+
+.header__body-link{
+    font-weight: 600;
+}
+
+
+.over-lay__body-link:hover{
+    color: var(--white-color);
+    text-decoration: none;
+}

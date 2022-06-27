@@ -1,0 +1,233 @@
+.news-img{
+    position: relative;
+    background-image: url('/assest/img/new-background.webp');
+    padding-top: 30%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.news-img__tittle{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-size: 72px;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+.news-container{
+    padding-top: 108px;
+    padding-bottom: 68px;
+}
+
+.new-container__body{
+    margin-bottom: 60px;
+}
+
+.new-container__body-item-background{
+    position: relative;
+    padding-top: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.new-item-background__time{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: var(--yellow-color);
+    text-align: center;
+    width: 114px;
+    height: 74px;
+    border-radius: 36px;
+    color: var(--white-color);
+}
+
+.new-item-background__time h3{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.new-item-background__time span{
+    font-size: 12px;
+}
+
+.new-container__body-item-content{
+    margin-top: 32px;
+}
+
+.new-item-body__list{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.new-item-body__item{
+    margin-right: 26px;
+
+}
+.new-item-body__link{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #929191;
+    position: relative;
+}
+
+.new-item-body__link:hover{
+    cursor: pointer;
+    color: var(--black-color);
+}
+
+.new-item-body__link::after{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 100%;
+    /* width: 1px; */
+    border-right: 1px solid #000;
+    background-color: var(--black-color);
+    top: 0;
+    right: -13px;
+}
+
+.new-item-body__item:last-child .new-item-body__link::after{
+    border: none;
+}
+
+.new-container__body-tittle{
+    font-size: 24px;
+    font-weight: 600;
+    color: #2b2b2b;
+    margin-top: 12px;
+}
+
+
+.new-container__body-text{
+    color: #929191;
+    line-height: 2;
+    margin: 0;
+}
+
+.new-container__body-read{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--yellow-color);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 0;
+    margin-top: 12px;
+}
+
+.new-container__body-read:hover{
+    color: var(--black-color);
+    
+}
+
+.news-container__search{
+    position: relative;
+}
+
+.news-container__search-write{
+    width: 100%;
+    height: 44px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #e6e7f4;
+    font-size: 14px;
+}
+
+.news-container__search-search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    
+    border: none;
+    padding: 8px 0;
+    font-size: 20px;
+    color: var(--yellow-color);
+}
+
+
+.news-container__archives-category{
+    margin-top: 94px;
+}
+
+.news-container__archives-category h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #404551;
+}
+
+.news-container__ac-list{
+    padding-left: 0;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.news-container__ac-item{
+    margin-bottom: 4px;
+}
+
+.news-container__ac-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #929191;
+    display: block;
+    padding: 10px 0;
+
+}
+
+.news-container__archives-category-item{
+    display:inline-flex;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.ca-item__img{
+    margin-right: 24px;
+}
+
+.ca-item__des h4{
+    margin: 0;
+    font-size: 15px;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+
+.ca-item__des h4:hover{
+    color: var(--yellow-color);
+}
+
+.ca-item__des p{
+    font-size: 14px;
+    color: #929191;
+}
+
+.ca-item__des p:hover{
+    color: var(--black-color);
+}
+
+.news-container__archives-category-img{
+    margin-top: 8px;
+}
+.news-container__archives-category-img img{
+    width: 100%;
+}
+
+.instagram{
+    margin-bottom: 38px;
+}
+
